@@ -1,4 +1,5 @@
-**Instagram Clone**
+_**Instagram Clone**_
+
 A completely Responsive Instagram App- Works on Android, iOS & Web!
 
 **Features**
