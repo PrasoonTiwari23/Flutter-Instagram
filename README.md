@@ -1,12 +1,31 @@
-# instagram_flutter
+Instagram Clone
+A completely Responsive Instagram App- Works on Android, iOS & Web!
 
-A new Flutter project.
+Features
+Responsive Instagram UI
+Email & Password Authentication
+Share Posts with Caption
+Display Posts with Caption
+Like & Comment on Posts
+Search Users
+Follow Users
+Display User Posts, Followers & Following
+EVERYTHING REAL TIME
+Sign Out
 
-its a flutter project which includes the complete use of basic knowledge of firebase kit provided by google , this project includes the basic frontend for begineers using flutter and dart widgets and the backend is completed by using firebase
-=> firebase authentication (used for user authentication)
-=> firebase firestore(for storing userdata on firebase)
-=>firebase cloud storage(for storing user images and post images on firebase)
-=> This App can be run on mobile as well as web page
-=>Stream builder is used to get the real time information which occured due to change in state of app
-=>Future builder is used for getting snapshots of a particular instance
-=>inbuilt animation mechanism provided by animation package in flutter is used for animation and staggered view is used for making grid views on search screen
+Installation
+After cloning this repository, migrate to instagram-flutter-clone folder. Then, follow the following steps:
+
+Create Firebase Project
+Enable Authentication
+Make Firestore Rules
+Create Android, iOS & Web Apps
+Take Web FirebaseOptions and put it in main function in main.dart file replacing my keys (My keys wont work as I deleted my project) Then run the following commands to run your app:
+  flutter pub get
+  open -a simulator (to get iOS Simulator)
+  flutter run
+  flutter run -d chrome --web-renderer html (to see the best output)
+Tech Used
+Server: Firebase Auth, Firebase Storage, Firebase Firestore
+
+Client: Flutter, Provider
